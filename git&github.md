@@ -680,6 +680,12 @@ git stash apply stash@{n}
     #再次推送，直接使用
     git push
     ```
+    
+  - 删除origin
+
+    ```
+    git remote rm origin
+    ```
 
 - 使用SSH，以下是给repo设置ssh，也可以给整个git账号设置ssh，在git的setting里
 
